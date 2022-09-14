@@ -3,11 +3,10 @@ import React, { useMemo } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
 // Style
-// import './scss/main.scss';
+import './sass/main.scss';
 
 // Paginas
-import Index from './pages/Index';
-// import PhoneTest from './pages/PhoneTest';
+import Tiptap from './pages/Tiptap';
 
 function App() {
 
@@ -15,7 +14,7 @@ function App() {
 
     return (
       <>
-        <Route path="/" element={<Index />} />
+        <Route path="/" element={<Tiptap />} />
       </>
     );
   }, []);
